@@ -63,7 +63,7 @@ REST_AUTH_SERIALIZERS = {
 SECRET_KEY = 'secret'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', 'paws-backend-api.herokuapp.com']
 
