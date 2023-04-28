@@ -18,7 +18,6 @@ import re
 if os.path.exists('env.py'):
     import env
 
-
 CLOUDINARY_STORAGE = {
     'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL'),
 }
@@ -90,7 +89,6 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'dj_rest_auth.registration',
     'corsheaders',
-
 
     'profiles',
     'posts',
