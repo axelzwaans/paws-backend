@@ -20,7 +20,7 @@ I added a graphical representation in the form of an entity-relationship model t
 
 The models as displayed above work together nicely to create a simple social media app. Users can create profiles, create posts, like and comment on other user's posts, and follow other users to see their content in their feed.
 
-- **Profiles** - Used to store information about each user, such as their username, email address, and profile picture. This information is used to identify the user throughout the app.
+- **Profiles** - Used to store information about each user, such as their username and profile picture. This information is used to identify the user throughout the app.
 
 - **Posts** - Used to store the actual content that users create, such as photos or text. Each post is associated with a specific user, using a foreign key relationship between the "profiles" and "posts" models.
 
@@ -49,7 +49,6 @@ The models as displayed above work together nicely to create a simple social med
 - **LucidChart** - A cloud-based diagramming and visual communication app on which I created my entity relationship diagram.
 
 - **ElephantSQL** - A cloud-based PostgreSQL database service that provides managed, scalable, and highly available databases.
-
 
 ## Testing
 
